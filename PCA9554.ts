@@ -39,9 +39,9 @@ enum Extend_Pin {
 }
 
 enum Add_Numb {
-    //% block="0x38"
+    //% block="0x39"
     PCA9554_addnumb = 0x1,
-    //% block="0x20"
+    //% block="0x3c"
     PCA9554A_addnumb = 0x2,
 }
 
@@ -53,9 +53,9 @@ namespace PCA9554 {
     export function pca9554_add(add:Add_Numb):void {
         
         if (add == 1) {
-            PCA9554_ADDRESS  = 0x38
+            PCA9554_ADDRESS  = 0x39
         } else if (add == 2) {
-            PCA9554_ADDRESS  = 0x20
+            PCA9554_ADDRESS  = 0x3c
         } 
     }
 
