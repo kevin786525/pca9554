@@ -35,7 +35,7 @@ enum Extend_Pin {
     //% block="P6"
     extend_Pin6 = 0x40,
     //% block="P7"
-    extend_Pin8 = 0x80,
+    extend_Pin7 = 0x80,
 }
 
 enum Add_Numb {
